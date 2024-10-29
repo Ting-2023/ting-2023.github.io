@@ -6,26 +6,32 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 29 Oct 2024 20:58:34 +0800</lastBuildDate><atom:link href="https://ting-2023.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Oct 2024 22:06:44 +0800</lastBuildDate><atom:link href="https://ting-2023.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Second</title>
-      <link>https://ting-2023.github.io/posts/second/</link>
-      <pubDate>Tue, 29 Oct 2024 20:58:34 +0800</pubDate>
+      <title>一个小白建立自己博客的经历（一）</title>
+      <link>https://ting-2023.github.io/posts/%E4%B8%80%E4%B8%AA%E5%B0%8F%E7%99%BD%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%BB%8F%E5%8E%86%E4%B8%80/</link>
+      <pubDate>Tue, 29 Oct 2024 22:06:44 +0800</pubDate>
       
-      <guid>https://ting-2023.github.io/posts/second/</guid>
+      <guid>https://ting-2023.github.io/posts/%E4%B8%80%E4%B8%AA%E5%B0%8F%E7%99%BD%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%BB%8F%E5%8E%86%E4%B8%80/</guid>
       
-        <description>&lt;p&gt;再次尝试新建的脚本是否有效？&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Hello</title>
-      <link>https://ting-2023.github.io/posts/hello/</link>
-      <pubDate>Tue, 29 Oct 2024 13:22:15 +0800</pubDate>
-      
-      <guid>https://ting-2023.github.io/posts/hello/</guid>
-      
-        <description>&lt;p&gt;能够写下这句话，就代表我完成了网站的基本设置，在网络上可以看到我自己的网站了。&lt;/p&gt;</description>
+        <description>&lt;p&gt;事先声明，我是从事医药行业的，建立自己的博客，对于我来说，脑子里真的是一张白纸。
+自从2024-10-17我开始在我的联想笔记本上安装hugo开始，到今天2024-10-29，才终于基本上弄出个网站的雏形。
+至少能发表文章，至少，外面的网络可以访问我的网站了。&lt;/p&gt;
+&lt;p&gt;严格来说，这一篇文章是发布在这个博客上的真正意义的一篇文章，在这之前为了调试和尝试，建立了很多，那些都不算数。&lt;/p&gt;
+&lt;p&gt;为什么要写出这个经历呢？很大一部分原因，这是我自己独立做的事情，同时，也是全程用KIMI，让AI协助我完成的事情。
+这意味着，在现今这个AI时代，我们要逐步适应有AI这个玩意，要让它为我们服务，高效服务，否则很容易落后。&lt;/p&gt;
+&lt;p&gt;如果没有kimi，很难想象，单纯通过搜索问题来找答案，不知道要花费多少时间才能完成搭建。
+因为kimi这类型的AI，有一个人类没有的优势，就是极其耐心，不管你问的问题有多傻，它都会认真回答你，不会嫌弃你。
+试想，类似“power shell中如何操作才能返回上一层文件路径？”这种弱智问题，对于一个IT人来说，得有多傻，肯定会非常不屑于教你。
+但kimi没有情绪，这一点是非常的好。&lt;/p&gt;
+&lt;p&gt;另外一点，我们几乎可以是用自然语言来描述问题，kimi就基本能够理解我们的问题，这也是非常大的进步。
+单纯搜索，没有精确的关键词，很容易走偏。&lt;/p&gt;
+&lt;p&gt;我为什么要建立自己的博客？
+最初的冲动，就是我想要有一个自己的网站，发表自己的想法，我也在写公众号，就是想试一下，看行不行。
+从另一个角度看，写作这件事本身是很好的，输出自己的思考，有自己的博客，应该更有动力去记录自己一点点的进步。
+当然，我也不可能一下子就要付费购买域名，所以，我选择hugo和GitHub，从晚上搜索情况来看，这也是比较常见的、免费的搭配了。&lt;/p&gt;
+&lt;p&gt;时间不早，下一篇继续。&lt;/p&gt;
+&lt;p&gt;2024-10-29 22:38:07&lt;/p&gt;</description>
       
     </item>
     

@@ -8,7 +8,7 @@ theme = 'anatole'
 title = "Ting的博客"
 author = "Ting"
 description = "一些进步，一些思考"
-profilePicture = "images/雪景2.jpg"
+profilePicture = "/images/雪景2.jpg"
 #时间格式设置
 listDateFormat = "2006-01-02  Monday"
 singleDateFormat = "2006-01-02  Monday"
