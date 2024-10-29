@@ -1,0 +1,4 @@
+baseURL = 'https://ting-2023.github.io/'
+languageCode = 'zh-cn'
+title = 'My New Hugo Site'
+theme = 'anatole'
