@@ -7,5 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 29 Oct 2024 13:22:15 +0800</lastBuildDate><atom:link href="https://ting-2023.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello</title>
+      <link>https://ting-2023.github.io/posts/hello/</link>
+      <pubDate>Tue, 29 Oct 2024 13:22:15 +0800</pubDate>
+      
+      <guid>https://ting-2023.github.io/posts/hello/</guid>
+      
+        <description>&lt;p&gt;能够写下这句话，就代表我完成了网站的基本设置，在网络上可以看到我自己的网站了。&lt;/p&gt;</description>
+      
+    </item>
+    
   </channel>
 </rss>
