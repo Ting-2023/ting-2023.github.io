@@ -6,7 +6,53 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 30 Oct 2024 11:53:04 +0800</lastBuildDate><atom:link href="https://ting-2023.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Oct 2024 22:04:28 +0800</lastBuildDate><atom:link href="https://ting-2023.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>20241030 知识不用就容易遗忘</title>
+      <link>https://ting-2023.github.io/posts/20241030-%E7%9F%A5%E8%AF%86%E4%B8%8D%E7%94%A8%E5%B0%B1%E5%AE%B9%E6%98%93%E9%81%97%E5%BF%98/</link>
+      <pubDate>Wed, 30 Oct 2024 22:04:28 +0800</pubDate>
+      
+      <guid>https://ting-2023.github.io/posts/20241030-%E7%9F%A5%E8%AF%86%E4%B8%8D%E7%94%A8%E5%B0%B1%E5%AE%B9%E6%98%93%E9%81%97%E5%BF%98/</guid>
+      
+        <description>&lt;p&gt;今天，组员跟我反馈了一个问题：某项目的SOP，有关物质杂质限度的制定问题，QA经理给出了不同的意见。&lt;/p&gt;
+&lt;p&gt;项目组：未知单杂不大于0.5%，依据来源于中国药典的原料药和注射液的标准，其规定未知单杂都是不大于0.5%；&lt;/p&gt;
+&lt;p&gt;QA经理：按照ICH Q3的相关要求，杂质鉴定限为0.2%，超过这个值，就需要研究清楚这个杂质，因此建议修订未知单杂为不大于0.2%。&lt;/p&gt;
+&lt;p&gt;当时，一听到这个反馈，我脑子就醒悟，也很懊恼，连这个都忘记了，真不应该。&lt;/p&gt;
+&lt;p&gt;确实，有好长一段时间没有接触这个杂质限度制定了，很容易就忽略这个知识点。&lt;/p&gt;
+&lt;p&gt;所以，我又翻了一下指导原则，在这里回顾一下：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;鉴定限：
+最大日剂量 ≺1mg，限度1.0%或5μgTDI；
+最大日剂量 1mg-10mg，限度0.5%或20μgTDI；
+最大日剂量 ≻10mg-2g，限度0.2%或2mgTDI。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我的这个项目，最大日剂量符合最后一个范围，鉴定限应该为0.2%比较合适。&lt;/p&gt;
+&lt;p&gt;当然，我也对这个项目进行了更深入的思考，也不能全盘否定我的0.5%这个限度。&lt;/p&gt;
+&lt;p&gt;我的理由是，这个项目才刚刚起步没有多久，还在小试阶段，也就是说，这个仿制药我还没开始系统的研究，我不清楚这个产品的杂质情况也是很合理的。&lt;/p&gt;
+&lt;p&gt;从研发流程来看，初期我们制定一个范围较宽松的标准，也有利于平常工作的推进。&lt;/p&gt;
+&lt;p&gt;即使在检测过程中，出现杂质超过鉴定限0.2%的情况也不要紧，检测工作还可以正常推进，正常出具报告书，随后，再对该杂质进行研究，最终申报前，修订质量标准即可。&lt;/p&gt;
+&lt;p&gt;而如果一开始就按严格的范围制定，当出现超过0.2%的杂质，不符合SOP，需要进行调查，整个检测工作无法顺利开展，会增加一些不必要的工作.&lt;/p&gt;
+&lt;p&gt;当然，我也想到，如果组员对这个研发流程不够熟悉的情况下，制定宽范围标准容易误导他们，这个倒是需要注意。&lt;/p&gt;
+&lt;p&gt;需要把握的关键点是，标准由宽收窄容易，由窄放宽比较难。&lt;/p&gt;
+&lt;p&gt;另外，出于加强记忆，把ICH的报告限和界定限也输入一遍。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;报告限：
+最大日剂量≤1g，限度0.1%；
+最大日剂量≻1g，限度0.05%；&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;界定限：
+最大日剂量≺1mg，限度1.0%或50μgTDI；
+最大日剂量10mg-100mg，限度0.5%或200μgTDI；
+最大日剂量≻100mg-2g，限度0.2%或3mgTDI；
+最大日剂量≻2g，限度0.15%。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这也给自己一个启示，重要的知识，需要定期进行回顾，否则脑子里面没有记忆，就没办法联想，也就谈不上应用，最终会导致解决问题时的窘境。&lt;/p&gt;
+&lt;p&gt;切记！&lt;/p&gt;
+&lt;p&gt;2024年10月30日22:39:47&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>一个小白建立自己博客的经历（二）</title>
       <link>https://ting-2023.github.io/posts/%E4%B8%80%E4%B8%AA%E5%B0%8F%E7%99%BD%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%BB%8F%E5%8E%86%E4%BA%8C/</link>
