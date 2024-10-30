@@ -1,0 +1,449 @@
+<!doctype html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+  
+    class="html theme--light"
+  
+><head>
+  <meta charset="utf-8" />
+  <title>
+    Ting
+        |
+        一个小白建立自己博客的经历（二）
+      
+
+    
+
+  </title>
+
+  <meta name="generator" content="Hugo 0.136.1"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Ting" />
+  <meta
+    name="description"
+    content="一些进步，一些思考"
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/scss/main.min.8d4fad7e6916ad2e291e8d97ada157c70350d6d7150fea137e7243340967befb.css"
+      integrity="sha256-jU&#43;tfmkWrS4pHo2XraFXxwNQ1tcVD&#43;oTfnJDNAlnvvs="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.73ccfdf28df555e11009c13c20ced067af3cb021504cba43644c705930428b00.css"
+    integrity="sha256-c8z98o31VeEQCcE8IM7QZ688sCFQTLpDZExwWTBCiwA="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.137b1cf3cea9a8adb7884343a9a5ddddf4280f59153f74dc782fb7f7bf0d0519.css"
+    integrity="sha256-E3sc886pqK23iENDqaXd3fQoD1kVP3TceC&#43;3978NBRk="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.e65dc5b48fb5f39b142360c57c3a215744c94e56c755c929cc3e88fe12aab4d3.css"
+    integrity="sha256-5l3FtI&#43;185sUI2DFfDohV0TJTlbHVckpzD6I/hKqtNM="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/regular.min.6f4f16d58da1c82c0c3a3436e021a3d39b4742f741192c546e73e947eacfd92f.css"
+    integrity="sha256-b08W1Y2hyCwMOjQ24CGj05tHQvdBGSxUbnPpR&#43;rP2S8="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.e10425ad768bc98ff1fb272a0ac8420f9d1ba22f0612c08ff1010c95080ffe7e.css"
+    integrity="sha256-4QQlrXaLyY/x&#43;ycqCshCD50boi8GEsCP8QEMlQgP/n4="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+
+  <link rel="canonical" href="https://ting-2023.github.io/posts/%E4%B8%80%E4%B8%AA%E5%B0%8F%E7%99%BD%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%BB%8F%E5%8E%86%E4%BA%8C/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.d6d329d93844b162e8bed1e915619625ca91687952177552b9b3e211014a2957.js"
+      integrity="sha256-1tMp2ThEsWLovtHpFWGWJcqRaHlSF3VSubPiEQFKKVc="
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+  
+
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="一个小白建立自己博客的经历（二）">
+  <meta name="twitter:description" content="在搭建之前，我在网上搜索了相关的教程，都说Hugo比较合适，且把文件部署在GitHub上是免费的。 正好，我也有GitHub的账号。
+所以，搭建个人博客的第一步就是安装相应的应用。 我在笔记本上安装了Hugo、git和go，还有powershell。
+Hugo是静态网页生成器，用go语言编写的，它可以在本地建立博客需要的结构文件，通俗一点讲，在powershell上使用简单的命令，就可以让Hugo生成一系列的文件，这些文件集成后的效果，就是我们平常登录的博客网页。 安装go，是因为Hugo是用go语言编写的，意思有点像，让hugo干活，得用它能理解的语言告诉它干什么。 git，就是将本地的文件推送储存在GitHub pages上用到的工具。
+工具都安装准备之后，就可以在powershell上是用命令在本地建立静态网页了。
+首先，打开powershell，切换到我想要保存博客网页文件的路径上，比如，我想要将文件放在D盘：
+PS D:\&gt;
+并输入：hugo new site blog
+PS D:\&gt;hugo new site blog
+这样，hugo就会自动在D盘新建一个名为“blog”的文件夹，并在这个文件夹里建立网页所需的一系列文件，如图：
+第二步，安装hugo主题，说人话就是给我的博客选件衣服，博客首页的图标、外观设计、颜色等之类的，装扮一下。
+这个主题不需要自己设计，在hugo官网就有成品，选自己喜欢就行，当然也可以从其他渠道下载。
+安装主题有两种方式：
+传统做法； 选择心仪的主题，点击下载，会转到GitHub页面，在文件列表的右上角有code的绿色按钮，点击下拉菜单，最后一行有download ZIP，点击下载一个压缩包，解压后，将整个文件夹剪切到D:\blog\themes这个文件里，就算安装完了。
+直接克隆； powershell，切换路径到D:\blog，输入：
+git clone https://github.com/your-chosen-theme/your-chosen-theme.git themes/your-chosen-theme
+这个链接https://github.com/your-chosen-theme/your-chosen-theme.git，同样来源于上面提到的绿色按钮，下来菜单中的网址，其中，两处的your-chosen-theme都要是我选中的那个主题实际名称。
+点击回车后，就会自动下载主题到themes这个文件夹中。
+主题安装完，还需要最后的配置，就是要告诉hugo，我要这个主题。
+因此，需要打开D:\blog目录下的配置文件hugo.toml，在最后一行输入以下代码：
+theme = &#39;主题名称&#39;
+到此，hugo的基本设置已经完成。
+第三步，生成一篇文章。
+powershell，切换路径到D:\blog，输入：hugo new posts/first-post.md
+PS D:\&gt;hugo new posts/first-post.md
+在D:\blog\content\posts文件夹中新建一个名为first-post的markdown格式的文件，这就是我将要发布的文章，可以在里面编辑内容。
+编辑完内容以后，我们就可以在本地预览自己的博客网站了。
+powershell，切换路径到D:\blog，输入：hugo server
+hugo就会生成静态文件，并给出一个网址，http://localhost:1313，使用浏览器访问，就可以看到自己的建立的博客了。
+因为博客网页的相关静态文件都是在自己的笔记本内生成的，也就意味着，这个网站仅能自己看，别人登录不了。
+到这一步，如果可以看到自己的博客网站，那就表明以上操作都成功了。
+下一篇，就将静态文件部署到GitHub pages上。
+2024年10月30日">
+
+
+
+  
+  <meta property="og:url" content="https://ting-2023.github.io/posts/%E4%B8%80%E4%B8%AA%E5%B0%8F%E7%99%BD%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%BB%8F%E5%8E%86%E4%BA%8C/">
+  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:title" content="一个小白建立自己博客的经历（二）">
+  <meta property="og:description" content="在搭建之前，我在网上搜索了相关的教程，都说Hugo比较合适，且把文件部署在GitHub上是免费的。 正好，我也有GitHub的账号。
+所以，搭建个人博客的第一步就是安装相应的应用。 我在笔记本上安装了Hugo、git和go，还有powershell。
+Hugo是静态网页生成器，用go语言编写的，它可以在本地建立博客需要的结构文件，通俗一点讲，在powershell上使用简单的命令，就可以让Hugo生成一系列的文件，这些文件集成后的效果，就是我们平常登录的博客网页。 安装go，是因为Hugo是用go语言编写的，意思有点像，让hugo干活，得用它能理解的语言告诉它干什么。 git，就是将本地的文件推送储存在GitHub pages上用到的工具。
+工具都安装准备之后，就可以在powershell上是用命令在本地建立静态网页了。
+首先，打开powershell，切换到我想要保存博客网页文件的路径上，比如，我想要将文件放在D盘：
+PS D:\&gt;
+并输入：hugo new site blog
+PS D:\&gt;hugo new site blog
+这样，hugo就会自动在D盘新建一个名为“blog”的文件夹，并在这个文件夹里建立网页所需的一系列文件，如图：
+第二步，安装hugo主题，说人话就是给我的博客选件衣服，博客首页的图标、外观设计、颜色等之类的，装扮一下。
+这个主题不需要自己设计，在hugo官网就有成品，选自己喜欢就行，当然也可以从其他渠道下载。
+安装主题有两种方式：
+传统做法； 选择心仪的主题，点击下载，会转到GitHub页面，在文件列表的右上角有code的绿色按钮，点击下拉菜单，最后一行有download ZIP，点击下载一个压缩包，解压后，将整个文件夹剪切到D:\blog\themes这个文件里，就算安装完了。
+直接克隆； powershell，切换路径到D:\blog，输入：
+git clone https://github.com/your-chosen-theme/your-chosen-theme.git themes/your-chosen-theme
+这个链接https://github.com/your-chosen-theme/your-chosen-theme.git，同样来源于上面提到的绿色按钮，下来菜单中的网址，其中，两处的your-chosen-theme都要是我选中的那个主题实际名称。
+点击回车后，就会自动下载主题到themes这个文件夹中。
+主题安装完，还需要最后的配置，就是要告诉hugo，我要这个主题。
+因此，需要打开D:\blog目录下的配置文件hugo.toml，在最后一行输入以下代码：
+theme = &#39;主题名称&#39;
+到此，hugo的基本设置已经完成。
+第三步，生成一篇文章。
+powershell，切换路径到D:\blog，输入：hugo new posts/first-post.md
+PS D:\&gt;hugo new posts/first-post.md
+在D:\blog\content\posts文件夹中新建一个名为first-post的markdown格式的文件，这就是我将要发布的文章，可以在里面编辑内容。
+编辑完内容以后，我们就可以在本地预览自己的博客网站了。
+powershell，切换路径到D:\blog，输入：hugo server
+hugo就会生成静态文件，并给出一个网址，http://localhost:1313，使用浏览器访问，就可以看到自己的建立的博客了。
+因为博客网页的相关静态文件都是在自己的笔记本内生成的，也就意味着，这个网站仅能自己看，别人登录不了。
+到这一步，如果可以看到自己的博客网站，那就表明以上操作都成功了。
+下一篇，就将静态文件部署到GitHub pages上。
+2024年10月30日">
+  <meta property="og:locale" content="zh_cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-10-30T11:53:04+08:00">
+    <meta property="article:modified_time" content="2024-10-30T11:53:04+08:00">
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "posts",
+        "name": "一个小白建立自己博客的经历（二）",
+        "headline": "一个小白建立自己博客的经历（二）",
+        "alternativeHeadline": "",
+        "description": "
+      
+        \u003cp\u003e在搭建之前，我在网上搜索了相关的教程，都说Hugo比较合适，且把文件部署在GitHub上是免费的。\n正好，我也有GitHub的账号。\u003c\/p\u003e\n\u003cp\u003e所以，搭建个人博客的第一步就是安装相应的应用。\n我在笔记本上安装了Hugo、git和go，还有powershell。\u003c\/p\u003e\n\u003cp\u003eHugo是静态网页生成器，用go语言编写的，它可以在本地建立博客需要的结构文件，通俗一点讲，在powershell上使用简单的命令，就可以让Hugo生成一系列的文件，这些文件集成后的效果，就是我们平常登录的博客网页。\n安装go，是因为Hugo是用go语言编写的，意思有点像，让hugo干活，得用它能理解的语言告诉它干什么。\ngit，就是将本地的文件推送储存在GitHub pages上用到的工具。\u003c\/p\u003e\n\u003cp\u003e工具都安装准备之后，就可以在powershell上是用命令在本地建立静态网页了。\u003c\/p\u003e\n\u003cp\u003e首先，打开powershell，切换到我想要保存博客网页文件的路径上，比如，我想要将文件放在D盘：\u003c\/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ccode\u003ePS D:\\\u0026gt;\u003c\/code\u003e\u003c\/p\u003e\n\u003c\/blockquote\u003e\n\u003cp\u003e并输入：hugo new site blog\u003c\/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ccode\u003ePS D:\\\u0026gt;hugo new site blog\u003c\/code\u003e\u003c\/p\u003e\n\u003c\/blockquote\u003e\n\u003cp\u003e这样，hugo就会自动在D盘新建一个名为“blog”的文件夹，并在这个文件夹里建立网页所需的一系列文件，如图：\u003c\/p\u003e\n\u003cp\u003e\u003cimg src=\u0022\/images\/%E5%8D%9A%E5%AE%A2%E7%9B%AE%E5%BD%95%E6%88%AA%E5%9B%BE.png\u0022 alt=\u0022博客文件列表截图\u0022\u003e\u003c\/p\u003e\n\u003cp\u003e第二步，安装hugo主题，说人话就是给我的博客选件衣服，博客首页的图标、外观设计、颜色等之类的，装扮一下。\u003c\/p\u003e\n\u003cp\u003e这个主题不需要自己设计，在hugo官网就有成品，选自己喜欢就行，当然也可以从其他渠道下载。\u003c\/p\u003e\n\u003cp\u003e安装主题有两种方式：\u003c\/p\u003e\n\u003col\u003e\n\u003cli\u003e传统做法；\u003c\/li\u003e\n\u003c\/ol\u003e\n\u003cp\u003e选择心仪的主题，点击下载，会转到GitHub页面，在文件列表的右上角有code的绿色按钮，点击下拉菜单，最后一行有download ZIP，点击下载一个压缩包，解压后，将整个文件夹剪切到D:\\blog\\themes这个文件里，就算安装完了。\u003c\/p\u003e\n\u003col start=\u00222\u0022\u003e\n\u003cli\u003e直接克隆；\u003c\/li\u003e\n\u003c\/ol\u003e\n\u003cp\u003epowershell，切换路径到D:\\blog，输入：\u003c\/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003egit clone \u003ca href=\u0022https:\/\/github.com\/your-chosen-theme\/your-chosen-theme.git\u0022\u003ehttps:\/\/github.com\/your-chosen-theme\/your-chosen-theme.git\u003c\/a\u003e themes\/your-chosen-theme\u003c\/p\u003e\n\u003c\/blockquote\u003e\n\u003cp\u003e这个链接\u003ca href=\u0022https:\/\/github.com\/your-chosen-theme\/your-chosen-theme.git\u0022\u003ehttps:\/\/github.com\/your-chosen-theme\/your-chosen-theme.git\u003c\/a\u003e，同样来源于上面提到的绿色按钮，下来菜单中的网址，其中，两处的your-chosen-theme都要是我选中的那个主题实际名称。\u003c\/p\u003e\n\u003cp\u003e点击回车后，就会自动下载主题到themes这个文件夹中。\u003c\/p\u003e\n\u003cp\u003e主题安装完，还需要最后的配置，就是要告诉hugo，我要这个主题。\u003c\/p\u003e\n\u003cp\u003e因此，需要打开D:\\blog目录下的配置文件hugo.toml，在最后一行输入以下代码：\u003c\/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ccode\u003etheme = \u0027主题名称\u0027\u003c\/code\u003e\u003c\/p\u003e\n\u003c\/blockquote\u003e\n\u003cp\u003e到此，hugo的基本设置已经完成。\u003c\/p\u003e\n\u003cp\u003e第三步，生成一篇文章。\u003c\/p\u003e\n\u003cp\u003epowershell，切换路径到D:\\blog，输入：hugo new posts\/first-post.md\u003c\/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ccode\u003ePS D:\\\u0026gt;hugo new posts\/first-post.md\u003c\/code\u003e\u003c\/p\u003e\n\u003c\/blockquote\u003e\n\u003cp\u003e在D:\\blog\\content\\posts文件夹中新建一个名为first-post的markdown格式的文件，这就是我将要发布的文章，可以在里面编辑内容。\u003c\/p\u003e\n\u003cp\u003e编辑完内容以后，我们就可以在本地预览自己的博客网站了。\u003c\/p\u003e\n\u003cp\u003epowershell，切换路径到D:\\blog，输入：hugo server\u003c\/p\u003e\n\u003cp\u003ehugo就会生成静态文件，并给出一个网址，http:\/\/localhost:1313，使用浏览器访问，就可以看到自己的建立的博客了。\u003c\/p\u003e\n\u003cp\u003e因为博客网页的相关静态文件都是在自己的笔记本内生成的，也就意味着，这个网站仅能自己看，别人登录不了。\u003c\/p\u003e\n\u003cp\u003e到这一步，如果可以看到自己的博客网站，那就表明以上操作都成功了。\u003c\/p\u003e\n\u003cp\u003e下一篇，就将静态文件部署到GitHub pages上。\u003c\/p\u003e\n\u003cp\u003e2024年10月30日\u003c\/p\u003e
+
+
+      
+
+
+    ",
+        "inLanguage": "zh-cn",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/ting-2023.github.io\/posts\/%E4%B8%80%E4%B8%AA%E5%B0%8F%E7%99%BD%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%BB%8F%E5%8E%86%E4%BA%8C\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Ting"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Ting"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Ting"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Ting"
+        },
+        "copyrightYear" : "2024",
+        "dateCreated": "2024-10-30T11:53:04.00Z",
+        "datePublished": "2024-10-30T11:53:04.00Z",
+        "dateModified": "2024-10-30T11:53:04.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Ting",
+            "url": "https://ting-2023.github.io/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/ting-2023.github.io\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+      ]
+
+    ,
+        "url" : "https:\/\/ting-2023.github.io\/posts\/%E4%B8%80%E4%B8%AA%E5%B0%8F%E7%99%BD%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%BB%8F%E5%8E%86%E4%BA%8C\/",
+        "wordCount" : "60",
+        "genre" : [ ],
+        "keywords" : [ ]
+    }
+  </script>
+
+
+</head>
+<body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/%e9%9b%aa%e6%99%af2.jpg"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="/">Ting的博客</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p>一些进步，一些思考</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Ting
+        2024
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+    "
+  >
+    
+    <div class="post__content">
+      
+        <h1>一个小白建立自己博客的经历（二）</h1>
+      
+      <p>在搭建之前，我在网上搜索了相关的教程，都说Hugo比较合适，且把文件部署在GitHub上是免费的。
+正好，我也有GitHub的账号。</p>
+<p>所以，搭建个人博客的第一步就是安装相应的应用。
+我在笔记本上安装了Hugo、git和go，还有powershell。</p>
+<p>Hugo是静态网页生成器，用go语言编写的，它可以在本地建立博客需要的结构文件，通俗一点讲，在powershell上使用简单的命令，就可以让Hugo生成一系列的文件，这些文件集成后的效果，就是我们平常登录的博客网页。
+安装go，是因为Hugo是用go语言编写的，意思有点像，让hugo干活，得用它能理解的语言告诉它干什么。
+git，就是将本地的文件推送储存在GitHub pages上用到的工具。</p>
+<p>工具都安装准备之后，就可以在powershell上是用命令在本地建立静态网页了。</p>
+<p>首先，打开powershell，切换到我想要保存博客网页文件的路径上，比如，我想要将文件放在D盘：</p>
+<blockquote>
+<p><code>PS D:\&gt;</code></p>
+</blockquote>
+<p>并输入：hugo new site blog</p>
+<blockquote>
+<p><code>PS D:\&gt;hugo new site blog</code></p>
+</blockquote>
+<p>这样，hugo就会自动在D盘新建一个名为“blog”的文件夹，并在这个文件夹里建立网页所需的一系列文件，如图：</p>
+<p><img src="/images/%E5%8D%9A%E5%AE%A2%E7%9B%AE%E5%BD%95%E6%88%AA%E5%9B%BE.png" alt="博客文件列表截图"></p>
+<p>第二步，安装hugo主题，说人话就是给我的博客选件衣服，博客首页的图标、外观设计、颜色等之类的，装扮一下。</p>
+<p>这个主题不需要自己设计，在hugo官网就有成品，选自己喜欢就行，当然也可以从其他渠道下载。</p>
+<p>安装主题有两种方式：</p>
+<ol>
+<li>传统做法；</li>
+</ol>
+<p>选择心仪的主题，点击下载，会转到GitHub页面，在文件列表的右上角有code的绿色按钮，点击下拉菜单，最后一行有download ZIP，点击下载一个压缩包，解压后，将整个文件夹剪切到D:\blog\themes这个文件里，就算安装完了。</p>
+<ol start="2">
+<li>直接克隆；</li>
+</ol>
+<p>powershell，切换路径到D:\blog，输入：</p>
+<blockquote>
+<p>git clone <a href="https://github.com/your-chosen-theme/your-chosen-theme.git">https://github.com/your-chosen-theme/your-chosen-theme.git</a> themes/your-chosen-theme</p>
+</blockquote>
+<p>这个链接<a href="https://github.com/your-chosen-theme/your-chosen-theme.git">https://github.com/your-chosen-theme/your-chosen-theme.git</a>，同样来源于上面提到的绿色按钮，下来菜单中的网址，其中，两处的your-chosen-theme都要是我选中的那个主题实际名称。</p>
+<p>点击回车后，就会自动下载主题到themes这个文件夹中。</p>
+<p>主题安装完，还需要最后的配置，就是要告诉hugo，我要这个主题。</p>
+<p>因此，需要打开D:\blog目录下的配置文件hugo.toml，在最后一行输入以下代码：</p>
+<blockquote>
+<p><code>theme = '主题名称'</code></p>
+</blockquote>
+<p>到此，hugo的基本设置已经完成。</p>
+<p>第三步，生成一篇文章。</p>
+<p>powershell，切换路径到D:\blog，输入：hugo new posts/first-post.md</p>
+<blockquote>
+<p><code>PS D:\&gt;hugo new posts/first-post.md</code></p>
+</blockquote>
+<p>在D:\blog\content\posts文件夹中新建一个名为first-post的markdown格式的文件，这就是我将要发布的文章，可以在里面编辑内容。</p>
+<p>编辑完内容以后，我们就可以在本地预览自己的博客网站了。</p>
+<p>powershell，切换路径到D:\blog，输入：hugo server</p>
+<p>hugo就会生成静态文件，并给出一个网址，http://localhost:1313，使用浏览器访问，就可以看到自己的建立的博客了。</p>
+<p>因为博客网页的相关静态文件都是在自己的笔记本内生成的，也就意味着，这个网站仅能自己看，别人登录不了。</p>
+<p>到这一步，如果可以看到自己的博客网站，那就表明以上操作都成功了。</p>
+<p>下一篇，就将静态文件部署到GitHub pages上。</p>
+<p>2024年10月30日</p>
+</div>
+    <div class="post__footer">
+      
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Ting
+        2024
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></body>
+</html>

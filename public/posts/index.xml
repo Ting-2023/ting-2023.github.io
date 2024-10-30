@@ -6,7 +6,70 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 29 Oct 2024 22:06:44 +0800</lastBuildDate><atom:link href="https://ting-2023.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Oct 2024 11:53:04 +0800</lastBuildDate><atom:link href="https://ting-2023.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一个小白建立自己博客的经历（二）</title>
+      <link>https://ting-2023.github.io/posts/%E4%B8%80%E4%B8%AA%E5%B0%8F%E7%99%BD%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%BB%8F%E5%8E%86%E4%BA%8C/</link>
+      <pubDate>Wed, 30 Oct 2024 11:53:04 +0800</pubDate>
+      
+      <guid>https://ting-2023.github.io/posts/%E4%B8%80%E4%B8%AA%E5%B0%8F%E7%99%BD%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%BB%8F%E5%8E%86%E4%BA%8C/</guid>
+      
+        <description>&lt;p&gt;在搭建之前，我在网上搜索了相关的教程，都说Hugo比较合适，且把文件部署在GitHub上是免费的。
+正好，我也有GitHub的账号。&lt;/p&gt;
+&lt;p&gt;所以，搭建个人博客的第一步就是安装相应的应用。
+我在笔记本上安装了Hugo、git和go，还有powershell。&lt;/p&gt;
+&lt;p&gt;Hugo是静态网页生成器，用go语言编写的，它可以在本地建立博客需要的结构文件，通俗一点讲，在powershell上使用简单的命令，就可以让Hugo生成一系列的文件，这些文件集成后的效果，就是我们平常登录的博客网页。
+安装go，是因为Hugo是用go语言编写的，意思有点像，让hugo干活，得用它能理解的语言告诉它干什么。
+git，就是将本地的文件推送储存在GitHub pages上用到的工具。&lt;/p&gt;
+&lt;p&gt;工具都安装准备之后，就可以在powershell上是用命令在本地建立静态网页了。&lt;/p&gt;
+&lt;p&gt;首先，打开powershell，切换到我想要保存博客网页文件的路径上，比如，我想要将文件放在D盘：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;PS D:\&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;并输入：hugo new site blog&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;PS D:\&amp;gt;hugo new site blog&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这样，hugo就会自动在D盘新建一个名为“blog”的文件夹，并在这个文件夹里建立网页所需的一系列文件，如图：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ting-2023.github.io/images/%E5%8D%9A%E5%AE%A2%E7%9B%AE%E5%BD%95%E6%88%AA%E5%9B%BE.png&#34; alt=&#34;博客文件列表截图&#34;&gt;&lt;/p&gt;
+&lt;p&gt;第二步，安装hugo主题，说人话就是给我的博客选件衣服，博客首页的图标、外观设计、颜色等之类的，装扮一下。&lt;/p&gt;
+&lt;p&gt;这个主题不需要自己设计，在hugo官网就有成品，选自己喜欢就行，当然也可以从其他渠道下载。&lt;/p&gt;
+&lt;p&gt;安装主题有两种方式：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;传统做法；&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;选择心仪的主题，点击下载，会转到GitHub页面，在文件列表的右上角有code的绿色按钮，点击下拉菜单，最后一行有download ZIP，点击下载一个压缩包，解压后，将整个文件夹剪切到D:\blog\themes这个文件里，就算安装完了。&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;直接克隆；&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;powershell，切换路径到D:\blog，输入：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;git clone &lt;a href=&#34;https://github.com/your-chosen-theme/your-chosen-theme.git&#34;&gt;https://github.com/your-chosen-theme/your-chosen-theme.git&lt;/a&gt; themes/your-chosen-theme&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这个链接&lt;a href=&#34;https://github.com/your-chosen-theme/your-chosen-theme.git&#34;&gt;https://github.com/your-chosen-theme/your-chosen-theme.git&lt;/a&gt;，同样来源于上面提到的绿色按钮，下来菜单中的网址，其中，两处的your-chosen-theme都要是我选中的那个主题实际名称。&lt;/p&gt;
+&lt;p&gt;点击回车后，就会自动下载主题到themes这个文件夹中。&lt;/p&gt;
+&lt;p&gt;主题安装完，还需要最后的配置，就是要告诉hugo，我要这个主题。&lt;/p&gt;
+&lt;p&gt;因此，需要打开D:\blog目录下的配置文件hugo.toml，在最后一行输入以下代码：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;theme = &#39;主题名称&#39;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;到此，hugo的基本设置已经完成。&lt;/p&gt;
+&lt;p&gt;第三步，生成一篇文章。&lt;/p&gt;
+&lt;p&gt;powershell，切换路径到D:\blog，输入：hugo new posts/first-post.md&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;PS D:\&amp;gt;hugo new posts/first-post.md&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在D:\blog\content\posts文件夹中新建一个名为first-post的markdown格式的文件，这就是我将要发布的文章，可以在里面编辑内容。&lt;/p&gt;
+&lt;p&gt;编辑完内容以后，我们就可以在本地预览自己的博客网站了。&lt;/p&gt;
+&lt;p&gt;powershell，切换路径到D:\blog，输入：hugo server&lt;/p&gt;
+&lt;p&gt;hugo就会生成静态文件，并给出一个网址，http://localhost:1313，使用浏览器访问，就可以看到自己的建立的博客了。&lt;/p&gt;
+&lt;p&gt;因为博客网页的相关静态文件都是在自己的笔记本内生成的，也就意味着，这个网站仅能自己看，别人登录不了。&lt;/p&gt;
+&lt;p&gt;到这一步，如果可以看到自己的博客网站，那就表明以上操作都成功了。&lt;/p&gt;
+&lt;p&gt;下一篇，就将静态文件部署到GitHub pages上。&lt;/p&gt;
+&lt;p&gt;2024年10月30日&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>一个小白建立自己博客的经历（一）</title>
       <link>https://ting-2023.github.io/posts/%E4%B8%80%E4%B8%AA%E5%B0%8F%E7%99%BD%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%BB%8F%E5%8E%86%E4%B8%80/</link>
