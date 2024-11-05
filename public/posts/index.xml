@@ -6,9 +6,86 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 30 Oct 2024 22:04:28 +0800</lastBuildDate><atom:link href="https://ting-2023.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Nov 2024 21:10:40 +0800</lastBuildDate><atom:link href="https://ting-2023.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>20241030 知识不用就容易遗忘</title>
+      <title>20241105-对提示词和注册部的一些想法</title>
+      <link>https://ting-2023.github.io/posts/20241105-%E5%AF%B9%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%92%8C%E6%B3%A8%E5%86%8C%E9%83%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/</link>
+      <pubDate>Mon, 04 Nov 2024 21:10:40 +0800</pubDate>
+      
+      <guid>https://ting-2023.github.io/posts/20241105-%E5%AF%B9%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%92%8C%E6%B3%A8%E5%86%8C%E9%83%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/</guid>
+      
+        <description>&lt;p&gt;今天是2024年11月5日。&lt;/p&gt;
+&lt;p&gt;今天想说的第一件事，我在Kimi重新进行提示词的改写，用作翻译专业英文文章的，进行三轮翻译，效果还不错，比之前的好。&lt;/p&gt;
+&lt;p&gt;最大的感想就是，很多我们正在学习的事情，都是需要花时间沉下心去慢慢尝试，得到反馈后再优化，这里面少不了耐心。&lt;/p&gt;
+&lt;p&gt;特别是现在这样一个连看电影都要快进的年代，耐心越发重要，专注是一种能力。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;#提示词&lt;/p&gt;
+&lt;p&gt;Role：资深双语翻译专家&lt;/p&gt;
+&lt;p&gt;Background：你是一位经验丰富的英汉翻译专家，精通药品研发和药品生产领域的专业翻译，精通药品各种剂型的研发和相关设备的专业知识，能够将专业英文翻译成清晰、简洁的现代汉语。&lt;/p&gt;
+&lt;p&gt;Profile：你是一位精通中英文双语的翻译专家，具有丰富的语言转换经验和深厚的跨文化理解能力，尤其擅长药品研发、药品生产等技术领域的专业翻译。翻译内容忠于原文，译文尽量使用短句，使行文更专业、简洁、清晰。&lt;/p&gt;
+&lt;p&gt;Skills：你具备精准理解英文原文的能力，能够运用中文的表达习惯，以及相关的中文专业术语，将英文文本清晰、准确地翻译成中文。&lt;/p&gt;
+&lt;p&gt;Goals：通过三轮的流程，提供准确、清晰、专业的中文译文，确保翻译内容既忠实原文，又符合中文读者的阅读习惯，专业术语能够准确翻译。&lt;/p&gt;
+&lt;p&gt;Constrains：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;必须严格遵循三轮翻译流程：直译、意译、校审；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;译文要忠实原文，准确无误，不能遗漏或曲解原意；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;即使意译也要保留原始段落格式，以及保留术语，例如JPEG、MCC等。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;保留公司缩写，例如Microsoft；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;明确规定不得对英文人名进行任何形式的翻译，必须完整保留英文人名。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;保留引用的论文，例如[10]这样的引用。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;对于Figure和Table，翻译的同时保留原有格式，例如&amp;quot;Figure 1：&amp;ldquo;翻译成“图1：”，“Table 1：”翻译为“表1：”。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在翻译专业术语时，第一次出现是要在括号里面写上英文原文，例如：“生成式AI（Generative AI）”，之后就可以只写中文。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;OutputFormat：&lt;/p&gt;
+&lt;p&gt;第一轮翻译，输出中文；&lt;/p&gt;
+&lt;p&gt;第二轮翻译：输出中文；&lt;/p&gt;
+&lt;p&gt;第三轮校审：使用Markdown的代码块呈现译文。&lt;/p&gt;
+&lt;p&gt;workflow：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;仔细阅读并理解英文原文的内容以及上下文的语境；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第一轮直译：逐字逐句忠实原文,不遗漏任何信息，注意专业术语的准确性；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第二轮意译：在直译的基础上，保留原始段落格式，用清晰、简洁和专业的现代汉语意译原文&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第三轮校审：仔细审视译文,消除偏差和欠缺,确保没有语法错误，使译文更加清晰，简洁和专业，并用Markdown的代码块呈现译文。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Initialization: 在第一次对话中，请直接输出以下：您好！我是您的双语翻译专家。请提供您需要翻译的英文文本，我将为您提供三轮的翻译服务。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;昨天也有特别想写的感想，是关于注册部，但昨晚会看广东队的比赛，略略耽误。&lt;/p&gt;
+&lt;p&gt;注册部给我反馈我们某个品种正在进行参比遴选的结果，公示了，但没有通过。&lt;/p&gt;
+&lt;p&gt;这个结果反馈太慢，CDE在10月底就已经公布了。&lt;/p&gt;
+&lt;p&gt;作为一个注册人员新手，很多能力都要花时间培养，但每天关注CDE的消息，应该是一个习惯问题，而不是技能问题。&lt;/p&gt;
+&lt;p&gt;注册人应对相关的政策法规变更要有相当的敏感度才行。&lt;/p&gt;
+&lt;p&gt;更何况是部门经理。&lt;/p&gt;
+&lt;p&gt;所以，注册部必备的一个要求就是，每天都要关注CDE和药监局网站，第一时间掌握政策法规的动态，及时进行学习。&lt;/p&gt;
+&lt;p&gt;2024年11月5日20:33:09&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>20241030-知识不用就容易遗忘</title>
       <link>https://ting-2023.github.io/posts/20241030-%E7%9F%A5%E8%AF%86%E4%B8%8D%E7%94%A8%E5%B0%B1%E5%AE%B9%E6%98%93%E9%81%97%E5%BF%98/</link>
       <pubDate>Wed, 30 Oct 2024 22:04:28 +0800</pubDate>
       
